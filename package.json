@@ -1,0 +1,26 @@
+{
+  "name": "flashcard-class-api",
+  "version": "1.0.0",
+  "description": "A flash card class api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rutulpatel/flashcard-class-api.git"
+  },
+  "keywords": [
+    "flash-card",
+    "class",
+    "nodejs",
+    "js",
+    "api"
+  ],
+  "author": "Rutul Patel <rutulpatel.rtl@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rutulpatel/flashcard-class-api/issues"
+  },
+  "homepage": "https://github.com/rutulpatel/flashcard-class-api#readme"
+}
