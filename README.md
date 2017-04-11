@@ -11,9 +11,7 @@ flashcard is a js class constructor which provides two different types of flash 
 - NodeJS
 
 ## Here's an example for that
-/**
- * TEST COMMANDS
- */
+ // TEST COMMANDS
 var firstPresident = new BasicCard("Who was the first president of the United States?", "George Washington");
 
 // "Who was the first president of the United States?"
@@ -39,9 +37,7 @@ console.log(firstPresidentCloze.getPartial());
 var brokenCloze = new ClozeCard("This doesn't work", "oops"); 
 
 
-/**
- * Output
- */
+//Output
 rutul (master *) flashcard-class-api $ node flashcard.js
 Who was the first president of the United States?
 George Washington
