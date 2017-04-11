@@ -11,14 +11,12 @@ var BasicCard = function(front, back) {
         return new BasicCard(front, back);
     }
 }
-
 var ClozeCard = function(text, cloze) {
     if (this instanceof ClozeCard) {
         this.fullText = text;
         this.cloze = cloze;
         var tmpText = this.fullText.replace(this.cloze, " ... ");
         this.partial = "";
-
         if (!tmpText) {
             return ("Couldn't find close: " + this.cloze + " in text: " + this.fullText);
         } else {
@@ -29,10 +27,15 @@ var ClozeCard = function(text, cloze) {
         return new ClozeCard(text, cloze);
     }
 }
-
 ClozeCard.prototype.getPartial = function() {
     return (this.partial) ? this.partial : "Exception: can't find partial text.";
 }
+
+
+
+
+
+
 
 var firstPresident = new BasicCard("Who was the first president of the United States?", "George Washington");
 
