@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/rutulpatel/flashcard-class-api/issues"
   },
-  "homepage": "https://github.com/rutulpatel/flashcard-class-api#readme"
+  "homepage": "https://github.com/rutulpatel/flashcard-class-api#readme",
+  "dependencies": {
+    "inquirer": "^3.0.6"
+  }
 }
